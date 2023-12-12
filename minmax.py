@@ -1,0 +1,5 @@
+a1, a2, a3 = int(input()), int(input()), int(input())
+m = min(a1, a2, a3)
+ma = max(a1, a2, a3)
+k = (a1+a2+a3)-(m+ma)
+print(ma, k, m, sep="\n")
