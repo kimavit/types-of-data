@@ -1,0 +1,7 @@
+p1 = int(input())
+p2 = int(input())
+q1 = int(input())
+q2 = int(input())
+a = p1 - q1
+b = p2 - q2
+print(abs (a)+ abs (b))
